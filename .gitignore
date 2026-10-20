@@ -1,0 +1,34 @@
+# Secrets: never commit real credentials
+.env
+.env.*
+!.env.example
+
+# Claude Code: personal, per machine
+CLAUDE.local.md
+.claude/settings.local.json
+
+# Java / Maven
+target/
+
+# Node: admin/ and web/
+node_modules/
+dist/
+.astro/
+
+# IDE: IntelliJ IDEA
+.idea/
+*.iml
+
+# IDE: VS Code and Eclipse metadata
+.vscode/
+.project
+.classpath
+.settings/
+.factorypath
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
