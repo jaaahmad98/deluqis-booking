@@ -7,7 +7,7 @@ Six weeks to a live booking, e-contract and invoicing system for Deluqis. Tick a
 Goal: the project builds, tests run in CI, and an admin can log in.
 
 - [x] Repo layout: `backend/`, `admin/`, `web/`, `docs/`, a root `README.md`, and a root `.gitignore` covering `.env`, `CLAUDE.local.md`, `node_modules/`, `target/` and IDE files
-- [ ] Spring Boot skeleton (Maven, Java 21) with packages `booking`, `contract`, `invoice`, `payment`, `notification` and `common`
+- [x] Spring Boot skeleton (Maven, Java 21) with packages `booking`, `contract`, `invoice`, `payment`, `notification` and `common`
 - [ ] `compose.yaml` for PostgreSQL 17, the first Flyway migration, and `.env.example`
 - [ ] GitHub Actions: build and test on every push
 - [ ] Spring Security: admin login with role `ADMIN`
