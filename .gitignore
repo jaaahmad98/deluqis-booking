@@ -4,6 +4,7 @@
 !.env.example
 
 # Claude Code: personal, per machine
+CLAUDE.md
 CLAUDE.local.md
 .claude/settings.local.json
 
